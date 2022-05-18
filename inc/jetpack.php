@@ -33,7 +33,7 @@ function travel_site_jetpack_setup() {
 		'jetpack-content-options',
 		array(
 			'post-details' => array(
-				'stylesheet' => 'travel_site-style',
+				'stylesheet' => 'travel-site-style',
 				'date'       => '.posted-on',
 				'categories' => '.cat-links',
 				'tags'       => '.tags-links',

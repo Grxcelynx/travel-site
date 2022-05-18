@@ -56,6 +56,6 @@ function travel_site_customize_partial_blogdescription() {
  * Binds JS handlers to make Theme Customizer preview reload changes asynchronously.
  */
 function travel_site_customize_preview_js() {
-	wp_enqueue_script( 'travel_site-customizer', get_template_directory_uri() . '/js/customizer.js', array( 'customize-preview' ), _S_VERSION, true );
+	wp_enqueue_script( 'travel-site-customizer', get_template_directory_uri() . '/js/customizer.js', array( 'customize-preview' ), _S_VERSION, true );
 }
 add_action( 'customize_preview_init', 'travel_site_customize_preview_js' );

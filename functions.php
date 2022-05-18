@@ -24,9 +24,9 @@ function travel_site_setup() {
 		* Make theme available for translation.
 		* Translations can be filed in the /languages/ directory.
 		* If you're building a theme based on TravelSite, use a find and replace
-		* to change 'travel_site' to the name of your theme in all the template files.
+		* to change 'travel-site' to the name of your theme in all the template files.
 		*/
-	load_theme_textdomain( 'travel_site', get_template_directory() . '/languages' );
+	load_theme_textdomain( 'travel-site', get_template_directory() . '/languages' );
 
 	// Add default posts and comments RSS feed links to head.
 	add_theme_support( 'automatic-feed-links' );
@@ -49,7 +49,7 @@ function travel_site_setup() {
 	// This theme uses wp_nav_menu() in one location.
 	register_nav_menus(
 		array(
-			'menu-1' => esc_html__( 'Primary', 'travel_site' ),
+			'menu-1' => esc_html__( 'Primary', 'travel-site' ),
 		)
 	);
 
@@ -122,9 +122,9 @@ add_action( 'after_setup_theme', 'travel_site_content_width', 0 );
 function travel_site_widgets_init() {
 	register_sidebar(
 		array(
-			'name'          => esc_html__( 'Sidebar', 'travel_site' ),
+			'name'          => esc_html__( 'Sidebar', 'travel-site' ),
 			'id'            => 'sidebar-1',
-			'description'   => esc_html__( 'Add widgets here.', 'travel_site' ),
+			'description'   => esc_html__( 'Add widgets here.', 'travel-site' ),
 			'before_widget' => '<section id="%1$s" class="widget %2$s">',
 			'after_widget'  => '</section>',
 			'before_title'  => '<h2 class="widget-title">',
@@ -138,10 +138,10 @@ add_action( 'widgets_init', 'travel_site_widgets_init' );
  * Enqueue scripts and styles.
  */
 function travel_site_scripts() {
-	wp_enqueue_style( 'travel_site-style', get_stylesheet_uri(), array(), _S_VERSION );
-	wp_style_add_data( 'travel_site-style', 'rtl', 'replace' );
+	wp_enqueue_style( 'travel-site-style', get_stylesheet_uri(), array(), _S_VERSION );
+	wp_style_add_data( 'travel-site-style', 'rtl', 'replace' );
 
-	wp_enqueue_script( 'travel_site-navigation', get_template_directory_uri() . '/js/navigation.js', array(), _S_VERSION, true );
+	wp_enqueue_script( 'travel-site-navigation', get_template_directory_uri() . '/js/navigation.js', array(), _S_VERSION, true );
 
 	if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {
 		wp_enqueue_script( 'comment-reply' );
