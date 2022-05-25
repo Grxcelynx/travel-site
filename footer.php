@@ -25,11 +25,7 @@
 				printf( esc_html__( 'Theme: %1$s by %2$s.', 'travel-site' ), 'travel-site', '<a href="http://Grxcelyn">Grxcelyn</a>' );
 				?>
 		</div><!-- .site-info -->
-	</footer><!-- #colophon -->
-</div><!-- #page -->
-
-<?php wp_footer(); ?>
-
+        
     <!-- This is the start of footer -->
     <footer>
         <div class="footerBox">
@@ -52,6 +48,11 @@
         </div>
     </footer>
     <!-- This is the end of footer -->
+	</footer><!-- #colophon -->
+</div><!-- #page -->
+
+<?php wp_footer(); ?>
+
 
 </body>
 </html>
