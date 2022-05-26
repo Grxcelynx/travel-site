@@ -9,8 +9,7 @@
 <?php get_header(); ?>
 
 <div class="contact">
-    
-    <div class="container">
+<div class="container">
         <div class="row header">
             <h1>CONTACT US &nbsp;</h1>
             <h3>Fill out the form below to learn more!</h3>
@@ -51,6 +50,9 @@
             </form>  
         </div>
     </div>
+</div>
+<?php get_template_part('template-parts/info-section')?> 
+
     <section class="help">
         <div class="mainBodyDiv">
             <h1 class="title"> Already planned a trip and need some help?</h1>
@@ -67,6 +69,6 @@
         </div>
 
     </section>
-</div>
+
 
 <?php get_footer(); ?>

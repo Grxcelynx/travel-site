@@ -9,8 +9,8 @@
 <?php get_header(); ?>
 <div class="about">
 <section class="about-banner">
-    <h1>Title HERE</h1>
-    <h4>subtitle will go here or tagline</h4>
+    <h1>Travel Together</h1>
+    <h3>Places change, but memories last a lifetime.</h3>
 </section>
 
     <section class="section-1">
