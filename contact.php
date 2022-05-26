@@ -51,7 +51,7 @@
             </form>  
         </div>
     </div>
-    <section>
+    <section class="help">
         <div class="mainBodyDiv">
             <h1 class="title"> Already planned a trip and need some help?</h1>
             <div class="row">

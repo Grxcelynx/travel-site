@@ -7,7 +7,7 @@
  */ 
 ?> 
 <?php get_header(); ?>
-<div>
+<div class="about">
 <section class="about-banner">
     <h1>Title HERE</h1>
     <h4>subtitle will go here or tagline</h4>
