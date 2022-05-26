@@ -7,7 +7,10 @@
  */ 
 ?> 
 <?php get_header(); ?>
-
+<section class="about-banner">
+    <h1>Title HERE</h1>
+    <h4>subtitle will go here or tagline</h4>
+</section>
 <section class="who-we-are">
         <div class="who-text">
             <h2>WHO ARE WE?</h2>
@@ -21,6 +24,7 @@
         </div>
 </section>
 <section class="mission">
+
     <div class="mission-text">
         <h2>OUR MISSION</h2>
         <p>
@@ -38,3 +42,5 @@
 </section>
 
     <?php get_template_part('template-parts/banner')?> 
+    <?php get_footer(); ?>
+

@@ -1,9 +1,26 @@
+.about-banner {
+    background-image: url('http://travel-site.local/wp-content/uploads/2022/05/duy-pham-Cecb0_8Hx-o-unsplash-scaled.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 15% 5% 15% 5%;
+
+    h1 {
+        text-align: center;
+    }
+
+    h4 {
+        text-align: center;
+    }
+}
+
+
+
 .who-text{
-    width: 80%;
+    width: 75%;
     height: 500px;
     float: left;
     text-align: center;
-    margin: 0px;
+    margin: 0% 0% 0% 5%;
     align-items: center;
     /* border: 1px solid #000; */
 }
@@ -14,15 +31,16 @@
 
 .mission {
     align-items: center;
-    background:blue, url('http://travel-site.local/wp-content/uploads/2022/05/caroline-selfors-r2jpr8MDw0I-unsplash-scaled.jpg');
+    background-image:url('http://travel-site.local/wp-content/uploads/2022/05/caroline-selfors-r2jpr8MDw0I-unsplash-scaled.jpg');
 }
 
+
 .mission-text {
-    width: 80%;
+    width: 75%;
     height: 500px;
     float: right;
     text-align: center;
-    margin: 0px;
+    margin: 0% 5% 0% 0%;
     align-items: center;
-    background: url('http://travel-site.local/wp-content/uploads/2022/05/caroline-selfors-r2jpr8MDw0I-unsplash-scaled.jpg');
+    // background: url('http://travel-site.local/wp-content/uploads/2022/05/caroline-selfors-r2jpr8MDw0I-unsplash-scaled.jpg');
 }
