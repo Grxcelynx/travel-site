@@ -6,9 +6,11 @@
  * 
  */ 
 ?> 
+
 <?php get_header(); ?>
+
 <div class="about">
-<section class="about-banner">
+<section class="about-banner" id="topBtn">
     <h1>Travel Together</h1>
     <h3>Places change, but memories last a lifetime.</h3>
 </section>
@@ -46,5 +48,7 @@
 
 
     <?php get_template_part('template-parts/banner')?> 
+    <?php get_template_part('template-parts/top-btn')?> 
+
     <?php get_footer(); ?>
 

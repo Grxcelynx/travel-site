@@ -7,8 +7,9 @@
  */ 
 ?> 
 <?php get_header(); ?>
+<!-- This is the start of hero section -->
 
-<div class="contact">
+<div class="contact" id="topBtn">
 <div class="container">
         <div class="row header">
             <h1>CONTACT US &nbsp;</h1>
@@ -52,6 +53,7 @@
     </div>
 </div>
 <?php get_template_part('template-parts/info-section')?> 
+<?php get_template_part('template-parts/pets')?> 
 
     <section class="help">
         <div class="mainBodyDiv">
@@ -69,6 +71,6 @@
         </div>
 
     </section>
-
+<?php get_template_part('template-parts/top-btn')?> 
 
 <?php get_footer(); ?>
