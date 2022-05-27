@@ -10,7 +10,28 @@
 <!-- This is the start of hero section -->
 
 <div class="contact" id="topBtn">
-<div class="container">
+
+<?php get_template_part('template-parts/info-section')?> 
+<?php get_template_part('template-parts/pets')?> 
+    <br>
+    <section class="help">
+        <div class="mainBodyDiv">
+            <h1 class="title"> Already planned a trip and need some help?</h1>
+            <div class="row">
+            <div class="coloum">
+            <p class="informationTitle"> Email Our 24hr Help </p>
+            
+            <p class="informationBody">   TravelToYourDreams@mail.com</p>
+            </div>
+            <div class="coloum">
+            <p class="informationTitle">Call Support Center</p>
+            <p class="informationBody">Open 9-5 Mon. - Sat. PT Time</p>
+            <p class="informationBody">1(800)-123-3000</p>
+        </div>
+
+    </section>
+
+    <div class="container">
         <div class="row header">
             <h1>CONTACT US &nbsp;</h1>
             <h3>Fill out the form below to learn more!</h3>
@@ -52,25 +73,6 @@
         </div>
     </div>
 </div>
-<?php get_template_part('template-parts/info-section')?> 
-<?php get_template_part('template-parts/pets')?> 
-    <br>
-    <section class="help">
-        <div class="mainBodyDiv">
-            <h1 class="title"> Already planned a trip and need some help?</h1>
-            <div class="row">
-            <div class="coloum">
-            <p class="informationTitle"> Email Our 24hr Help </p>
-            
-            <p class="informationBody">   TravelToYourDreams@mail.com</p>
-            </div>
-            <div class="coloum">
-            <p class="informationTitle">Call Support Center</p>
-            <p class="informationBody">Open 9-5 Mon. - Sat. PT Time</p>
-            <p class="informationBody">1(800)-123-3000</p>
-        </div>
-
-    </section>
 <?php get_template_part('template-parts/top-btn')?> 
 
 <?php get_footer(); ?>

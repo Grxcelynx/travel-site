@@ -623,7 +623,7 @@ textarea {
   /* This is the start of navigation  */
   height: 60px;
   width: 100%;
-  background-color: #eedbff;
+  background: linear-gradient(0deg, rgba(252, 170, 252, 0.1), rgba(252, 170, 252, 0.1));
   position: sticky;
   top: 0;
   z-index: 1;
@@ -726,22 +726,22 @@ textarea {
 /* This is the start of footer  */
 footer {
   width: 100%;
-  height: 200px;
-  background-color: #eedbff;
+  height: auto;
+  background: linear-gradient(0deg, rgba(252, 170, 252, 0.1), rgba(252, 170, 252, 0.1));
 }
 
 .footerBox {
   width: 30%;
-  height: 200px;
+  height: auto;
   float: left;
-  margin: 0px 20px;
+  margin: 0px 10px;
   text-align: center;
   /* border: 1px solid #000; */
 }
 
 .footerBox ul {
   list-style-type: none;
-  margin-top: 60px;
+  margin-top: 0px;
 }
 
 .footerBox a {
@@ -776,11 +776,11 @@ footer {
 }
 
 .socialMedia i {
-  color: #000;
+  color: darkmagenta;
 }
 
 .socialMedia i:hover {
-  color: darkmagenta;
+  color: #eedbff;
 }
 
 .socialMedia i:active {
@@ -1063,8 +1063,7 @@ main {
 .about {
   background-position: left;
   background-size: cover;
-  background-repeat: no-repeat;
-  background-image: url("http://travel-site.local/wp-content/uploads/2022/05/al-pangestu-jZgz2GMaKZs-unsplash-scaled.jpg");
+  background: linear-gradient(to right, rgba(248, 246, 246, 0.3), rgba(248, 246, 246, 0.3)), url("http://travel-site.local/wp-content/uploads/2022/05/leio-mclaren-FwdZYz0yc9g-unsplash-scaled.jpg");
 }
 
 .about-banner {
@@ -1118,8 +1117,8 @@ body {
 }
 
 .contact {
-  background-image: url(http://travel-site.local/wp-content/uploads/2022/05/al-pangestu-jZgz2GMaKZs-unsplash-scaled.jpg);
-  background-position: left;
+  background: linear-gradient(to right, rgba(248, 246, 246, 0.3), rgba(248, 246, 246, 0.3)), url("http://travel-site.local/wp-content/uploads/2022/05/leio-mclaren-FwdZYz0yc9g-unsplash-scaled.jpg");
+  background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
   padding: 2%;
@@ -1349,17 +1348,19 @@ form small {
   display: flex;
   justify-content: end;
   align-items: center;
-  margin: 30px;
+  margin: 20px;
 }
 
 .topButton a {
-  padding: 8px 15px;
-  background-color: #000;
-  border: 2px solid #000;
-  border-radius: 50px;
+  padding: 0px 15px;
+  background-color: transparent;
+  border: 2px solid #eedbff;
+  border-radius: 40px;
   text-decoration: none;
   text-transform: uppercase;
-  color: #fff;
+  color: black;
+  align-items: center;
+  box-shadow: magenta 2px 2px;
 }
 
 .topButton a:hover {

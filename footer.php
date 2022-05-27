@@ -11,7 +11,7 @@
 
 ?>
 
-	<footer id="colophon" class="site-footer">
+<footer id="colophon" class="site-footer">
 		<div class="site-info">
 			<a href="<?php echo esc_url( __( 'https://wordpress.org/', 'travel-site' ) ); ?>">
 				<?php
@@ -48,8 +48,7 @@
         </div>
     </footer>
     <!-- This is the end of footer -->
-	</footer><!-- #colophon -->
-</div><!-- #page -->
+</footer><!-- #colophon -->
 
 <?php wp_footer(); ?>
 
