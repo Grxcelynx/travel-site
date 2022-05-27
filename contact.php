@@ -54,7 +54,7 @@
 </div>
 <?php get_template_part('template-parts/info-section')?> 
 <?php get_template_part('template-parts/pets')?> 
-
+    <br>
     <section class="help">
         <div class="mainBodyDiv">
             <h1 class="title"> Already planned a trip and need some help?</h1>
