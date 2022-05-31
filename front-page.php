@@ -16,7 +16,9 @@
             <h1>
                 <?php the_field('page_title'); ?>
             </h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <p>
+                <?php the_field('hero_text'); ?>
+            </p>
         </div>
     </main>
     <!-- This is the end of hero section --> 
@@ -24,19 +26,25 @@
         <!-- This is the start of icon section -->
         <section class="row">
         <div class="column">
-            <img src="http://travel-site.local/wp-content/uploads/2022/05/globe.png" alt="pink globe icon.">
-            <h2>CHOOSE YOUR DESTIANTION</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis inventore, perspiciatis rerum quisquam nam ex. </p>
+            <img src="<?php the_field('icon_1'); ?>" alt="pink globe icon.">
+            <h2><?php the_field('icon_1_title'); ?></h2>
+            <p>
+            <?php the_field('icon_1_text'); ?>
+            </p>
         </div>
         <div class="column">
-            <img src="http://travel-site.local/wp-content/uploads/2022/05/airport.png" alt="pink globe icon.">
-            <h2>CATCH YOUR FLIGHT</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis inventore, perspiciatis rerum quisquam nam ex. </p>
+            <img src="<?php the_field('icon_2'); ?>" alt="pink globe icon.">
+            <h2><?php the_field('icon_2_title'); ?></h2>
+            <p>
+            <?php the_field('icon_3_text'); ?>
+            </p>
         </div>
         <div class="column">
-            <img src="http://travel-site.local/wp-content/uploads/2022/05/pin.png" alt="pink globe icon.">
-            <h2>LAND IN PARADISE</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis inventore, perspiciatis rerum quisquam nam ex. </p>
+            <img src="<?php the_field('icon_3'); ?>" alt="pink globe icon.">
+            <h2><?php the_field('icon_3_title'); ?></h2>
+            <p>
+            <?php the_field('icon_3_text'); ?>
+            </p>
         </div>
     </section>
     <!-- This is the end of icon section -->

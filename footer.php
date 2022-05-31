@@ -12,28 +12,18 @@
 ?>
 
 <footer id="colophon" class="site-footer">
-		<div class="site-info">
-			<a href="<?php echo esc_url( __( 'https://wordpress.org/', 'travel-site' ) ); ?>">
-				<?php
-				/* translators: %s: CMS name, i.e. WordPress. */
-				printf( esc_html__( 'Proudly powered by %s', 'travel-site' ), 'WordPress' );
-				?>
-			</a>
-			<span class="sep"> | </span>
-				<?php
-				/* translators: 1: Theme name, 2: Theme author. */
-				printf( esc_html__( 'Theme: %1$s by %2$s.', 'travel-site' ), 'travel-site', '<a href="http://Grxcelyn">Grxcelyn</a>' );
-				?>
-		</div><!-- .site-info -->
         
     <!-- This is the start of footer -->
     <footer>
         <div class="footerBox">
-            <ul>
-                <a href="/index.html"><li>Home</li></a>
-                <a href="/about.html"><li>About</li></a>
-                <a href="/contact.html"><li>Contact</li></a>
-            </ul>
+        <?php
+            wp_nav_menu(array(
+                'menu' => 'Nav Menu',
+                'theme_location' => 'footer-menu',
+                'menu_class' => 'footer-menu',
+                'menu_id' => 'footer-id'
+            ))
+        ?>
 
         </div>
         <div class="footerBox">
@@ -50,7 +40,6 @@
     <!-- This is the end of footer -->
 </footer><!-- #colophon -->
 
-<?php wp_footer(); ?>
 
 
 </body>
