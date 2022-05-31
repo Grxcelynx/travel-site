@@ -6,10 +6,11 @@
  * 
  */ 
 ?> 
+<div class="" id="topBtn"> </div>
+
 <?php get_header(); ?>
 <!-- This is the start of hero section -->
 
-<div class="contact" id="topBtn">
 
 <?php get_template_part('template-parts/info-section')?> 
 <?php get_template_part('template-parts/pets')?> 

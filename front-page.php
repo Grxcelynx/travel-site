@@ -6,10 +6,12 @@
  * 
  */ 
 ?> 
+<div class="" id="topBtn"> </div>
+
 <?php get_header(); ?>
 
    <!-- This is the start of hero section -->
-   <main id="topBtn">
+   <main id="">
         <div class="hero-text">
             <h1>Hello World</h1>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>

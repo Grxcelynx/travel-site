@@ -1405,6 +1405,21 @@ button {
   background-color: #eedbff;
 }
 
+/* Pets Travel Page
+--------------------------------------------- */
+.travel-bud-banner {
+  margin: 0;
+  padding: 3%;
+  text-align: center;
+  color: white;
+  text-shadow: 1px 1px black;
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("http://travel-site.local/wp-content/uploads/2022/05/patrick-hendry-jd0hS7Vhn_A-unsplash-scaled.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-position-y: bottom;
+  background-size: cover;
+}
+
 /*--------------------------------------------------------------
 # Plugins
 --------------------------------------------------------------*/
