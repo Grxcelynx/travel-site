@@ -13,15 +13,15 @@
 
 <section class="travel-bud-banner">
     <div>
-        <h1>Travel Buddies <i style="font-size:55px" class="fa">&#xf1b0;</i> </h1>
+        <h1><?php the_field('page_title'); ?> <i style="font-size:55px" class="fa">&#xf1b0;</i> </h1>
         <h3>
-            Traveling with a pet? 
+        <?php the_field('page_subtitle'); ?> 
             <br> 
-            See which airlines and destinations work best for you and your animal(s)!
+            <?php the_field('buddy_subtitle_info'); ?> 
         </h3>
         <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam lacinia ultricies lorem. Curabitur rhoncus cursus est, vitae porttitor orci sollicitudin laoreet. Maecenas luctus, ligula cursus vulputate sollicitudin, est elit iaculis dolor, sit amet rutrum neque diam nec turpis. Praesent libero libero, sagittis vel malesuada vel, pharetra condimentum nisi. 
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam lacinia ultricies lorem. Curabitur rhoncus cursus est, vitae porttitor orci sollicitudin laoreet. Maecenas luctus, ligula cursus vulputate sollicitudin, est elit iaculis dolor, sit amet rutrum neque diam nec turpis. Praesent libero libero, sagittis vel malesuada vel, pharetra condimentum nisi. 
+        <?php the_field('buddy_info_excerpt'); ?> 
+
         </p>
     </div>
 </section>
