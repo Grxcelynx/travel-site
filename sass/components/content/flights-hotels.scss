@@ -1,0 +1,20 @@
+.flights-hotels {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 50vh;
+    grid-gap: 2%;
+    position: relative;
+    justify-content: center;
+    margin: 0;
+    padding: 5%
+}
+
+.flights {
+    background:linear-gradient(to right, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2));
+    text-align: center;
+}
+
+.hotels {
+    background:linear-gradient(to right, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2));
+    text-align: center;
+}

@@ -13,7 +13,9 @@
    <!-- This is the start of hero section -->
    <main id="">
         <div class="hero-text">
-            <h1>Hello World</h1>
+            <h1>
+                <?php the_field('page_title'); ?>
+            </h1>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
         </div>
     </main>

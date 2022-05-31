@@ -26,6 +26,9 @@
     </div>
 </section>
 
+<?php get_template_part('template-parts/flights-hotels'); ?> 
+
+
 <?php get_template_part('template-parts/banner'); ?> 
 <?php get_template_part('template-parts/top-btn')?> 
 <?php get_footer(); ?>
