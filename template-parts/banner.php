@@ -2,10 +2,10 @@
   <section class="bannerSection" >
         <div class="bannerImg">
             <div class="bannerCopy">
-                <h3>Book Today, Travel Tomorrow</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis sit voluptate beatae quisquam placeat aliquid non suscipit quibusdam!</p>
+                <h3><?php the_field('title'); ?> </h3>
+                <p><?php the_field('text'); ?></p>
                 <div class="bannerBtn">
-                    <a href="#">BOOK</a>
+                    <a href="#"><?php the_field('button'); ?></a>
                 </div>
             </div>
         </div>
