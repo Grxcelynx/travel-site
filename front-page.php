@@ -11,7 +11,10 @@
 <?php get_header(); ?>
 
    <!-- This is the start of hero section -->
-   <main id="">
+   <main id="" style="background: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(<?php the_field('homepage_background_banner_image'); ?>); 
+                        background-size: cover;
+                        background-position: center;
+                        background-repeat: no-repeat;">
         <div class="hero-text">
             <h1>
                 <?php the_field('page_title'); ?>

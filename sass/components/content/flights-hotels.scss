@@ -6,15 +6,53 @@
     position: relative;
     justify-content: center;
     margin: 0;
-    padding: 5%
+    padding: 5%;
+    color: white;
+    text-shadow: 1px 1px black;
 }
 
 .flights {
     background:linear-gradient(to right, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2));
     text-align: center;
+    text-shadow: 2px 1px black;
+
+    h2 {
+        font-size: 3em;
+        text-transform: uppercase;
+        padding: 10% 10% 0% 10%;
+
+    }
+
+    h4 {
+        font-size: 2em;
+        padding: 1% 10% 2% 10%;
+    }
+
+    button {
+        font-size: 1.5em;
+        padding: 5% 8% 5% 8%;
+    }
 }
 
 .hotels {
     background:linear-gradient(to right, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2));
     text-align: center;
+    text-shadow: 2px 2  px black;
+
+    h2 {
+        font-size: 3em;
+        text-transform: uppercase;
+        padding: 10% 10% 0% 10%;
+
+    }
+
+    h4 {
+        font-size: 2em;
+        padding: 1% 10% 2% 10%;
+    }
+
+    button {
+        font-size: 1.5em;
+        padding: 5% 8% 5% 8%;
+    }
 }

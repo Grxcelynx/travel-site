@@ -928,11 +928,6 @@ body {
 main {
   width: 100%;
   height: 500px;
-  background-color: #00ffb3;
-  background: linear-gradient(to right, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("http://travel-site.local/wp-content/uploads/2022/05/heroimg-scaled.jpg");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
 }
 
 .hero-text {
@@ -1067,9 +1062,6 @@ main {
 }
 
 .about-banner {
-  background-image: url("http://travel-site.local/wp-content/uploads/2022/05/duy-pham-Cecb0_8Hx-o-unsplash-scaled.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
   padding: 15% 5% 15% 5%;
   text-align: center;
   text-shadow: white 1px 1px;
@@ -1413,11 +1405,6 @@ button {
   text-align: center;
   color: white;
   text-shadow: 1px 1px black;
-  background: linear-gradient(to right, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("http://travel-site.local/wp-content/uploads/2022/05/patrick-hendry-jd0hS7Vhn_A-unsplash-scaled.jpg");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-position-y: bottom;
-  background-size: cover;
 }
 
 /* Flights
@@ -1431,16 +1418,46 @@ button {
   justify-content: center;
   margin: 0;
   padding: 5%;
+  color: white;
+  text-shadow: 1px 1px black;
 }
 
 .flights {
   background: linear-gradient(to right, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2));
   text-align: center;
+  text-shadow: 2px 1px black;
+}
+.flights h2 {
+  font-size: 3em;
+  text-transform: uppercase;
+  padding: 10% 10% 0% 10%;
+}
+.flights h4 {
+  font-size: 2em;
+  padding: 1% 10% 2% 10%;
+}
+.flights button {
+  font-size: 1.5em;
+  padding: 5% 8% 5% 8%;
 }
 
 .hotels {
   background: linear-gradient(to right, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2));
   text-align: center;
+  text-shadow: 2px 2 px black;
+}
+.hotels h2 {
+  font-size: 3em;
+  text-transform: uppercase;
+  padding: 10% 10% 0% 10%;
+}
+.hotels h4 {
+  font-size: 2em;
+  padding: 1% 10% 2% 10%;
+}
+.hotels button {
+  font-size: 1.5em;
+  padding: 5% 8% 5% 8%;
 }
 
 /*--------------------------------------------------------------

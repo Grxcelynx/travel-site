@@ -11,7 +11,13 @@
 <?php get_header(); ?>
 <!-- <?php get_template_part('template-parts/pets'); ?> -->
 
-<section class="travel-bud-banner">
+<section class="travel-bud-banner" style="
+    background:linear-gradient(to right, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(<?php the_field('banner_image'); ?>);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position-y: bottom;
+    background-size: cover;
+">
     <div>
         <h1><?php the_field('page_title'); ?> <i style="font-size:55px" class="fa">&#xf1b0;</i> </h1>
         <h3>

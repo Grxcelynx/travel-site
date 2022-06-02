@@ -10,7 +10,7 @@
 
 <?php get_header(); ?>
 
-<section class="about-banner">
+<section class="about-banner" style="background: url(<?php the_field('banner_background_image_'); ?>); background-repeat: no-repeat; background-size: cover;">
     <h1><?php the_field('page_title'); ?></h1>
     <h3><?php the_field('page_subtitle'); ?></h3>
 </section>
