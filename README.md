@@ -6,7 +6,9 @@ A template for a traveling, flight, or vaction stay site.
 * [Tech Stack](#stack)
 * [About The Developer](#about)
 * [Connect](#connect)
-# <img src="" >
+
+# <img src="https://github.com/Grxcelynx/travel-site/blob/main/GitHub%20imgs/site-vids%20(3).gif" >
+
 ## <a name="stack" ></a>Tech Stack
 * Backend: PHP | JavaScript
 * Frontend: HTML | CSS | SASS
